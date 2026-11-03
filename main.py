@@ -32,9 +32,9 @@ print(f"Twoje haslo zdobylo {strength}pkt na 4")
 
 if(strength==4):
     print("Haslo jest BARDZO SILNE! Dobra robota!")
-if(strength==3):
+elif(strength==3):
     print("Haslo jest SREDNIE, ale mozna je jeszcze ulepszyc!")
-if(strength==2):
+elif(strength==2):
     print("Haslo jest SLABE, latwo je zlamac - lepiej je popraw!")
-if(strength<=1):
+else:
     print("Haslo jest TRAGICZNE, szybko je zmien !!!!!")
